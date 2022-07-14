@@ -80,10 +80,48 @@ section.topo{
 
 .img-topo img{max-width: 100%;}
 
+/* Sessão 2 - Depoimentos */
+section.depoimentos{
+    padding: 30px 0;
+}
 
+section.depoimentos > .center{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.depoimentos-single{
+    width: 45%;
+    background-color: white;
+    background-image: url('../images/quote.png');
+    background-repeat: no-repeat;
+    background-size: 55px 40px;
+    background-position: calc(100% - 10px) 10px;
+    padding: 50px;
+    margin-bottom: 10px;
+    margin-right: 5%; /* trocar isso depois pelo justify-content*/
+}
+
+.depoimentos-single p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+.depoimentos-single span{
+    color: green;
+    font-weight: bold;
+    font-size: 13px;
+}
 
 
 
 @media screen and (max-width: 768px){
     .texto-topo, .img-topo{width: 100%; margin-bottom: 20px;}
+
+    .depoimentos-single{
+        width: 100%;
+        margin-right: 0;
+    }
 }
