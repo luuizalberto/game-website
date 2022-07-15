@@ -115,6 +115,19 @@ section.depoimentos > .center{
     font-size: 13px;
 }
 
+/* Sessão 3 - Sobre */
+.sobre{
+    padding: 20px 0;
+}
+
+.titulo-sobre h2{
+    color: black;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #2bb222;
+    display: inline-block;
+}
+
 
 
 @media screen and (max-width: 768px){
