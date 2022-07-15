@@ -50,7 +50,7 @@ header > .center{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    box-shadow: 1px 4px 12px -1px #A0FF96;
+    box-shadow: 1px 4px 12px -1px #84d47b;
     margin-right: 0;
     transition: 0.3s;
 }
@@ -100,24 +100,28 @@ section.depoimentos{
 section.depoimentos > .center{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .depoimentos-single{
-    width: 45%;
+    width: 48%;
     background-color: white;
-    background-image: url('../images/quote.png');
+    /* background-image: url('../images/quote.png');
     background-repeat: no-repeat;
     background-size: 55px 40px;
-    background-position: calc(100% - 10px) 10px;
-    padding: 50px;
+    background-position: calc(100% - 10px) 10px; */
+    padding: 35px;
     margin-bottom: 10px;
+    box-shadow: 2px 11px 19px -2px #858585;
+    display: flex;
 }
 
 .depoimentos-single p{
     font-weight: bold;
     font-size: 13px;
-    color: black;
+    color: #808080;
+    font-style: italic;
+    line-height: 20px;
 }
 
 .depoimentos-single span{
@@ -125,6 +129,9 @@ section.depoimentos > .center{
     font-weight: bold;
     font-size: 13px;
 }
+
+.depoimentos-single img{margin-left: 20px;}
+
 
 /* Sessão 3 - Sobre */
 .sobre{
