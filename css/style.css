@@ -29,17 +29,12 @@ header > .center{
     justify-content: space-between;
 }
 
-.logo{
-    /* float: left; */
-}
-
 .logo img{
     max-width: 100%;
 }
 
 .menu{
     margin-top: 20px;
-    /* float: right; */
 }
 
 .menu a{
@@ -56,6 +51,11 @@ header > .center{
     text-transform: uppercase;
     color: white;
     box-shadow: 1px 4px 12px -1px #A0FF96;
+    margin-right: 0;
+    transition: 0.3s;
+}
+.menu a.btn-cta:hover{
+    background-color: #296b1a;
 }
 
 /* Sessão 1 - principal */
@@ -63,12 +63,18 @@ section.topo{
     /* background-color: rgb(241, 241, 241); */
     padding: 30px;
 }
+
+section.topo > .center{
+    display: flex;
+    justify-content: space-between;
+}
+
 .texto-topo{
     margin-top: 20px;
-    float: left;
-    width: 50%;
+    /* float: left; */
+    width: 60%;
     color: #11223f;
-    padding: 0 20px;
+    padding-right: 4%;
 }
 
 .texto-topo h2{
@@ -81,8 +87,7 @@ section.topo{
 }
 
 .img-topo{
-    float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .img-topo img{max-width: 100%;}
@@ -183,6 +188,8 @@ footer i{
 
 
 @media screen and (max-width: 768px){
+
+    section.topo > .center{flex-wrap: wrap;}
     .texto-topo, .img-topo{width: 100%; margin-bottom: 20px;}
 
     .depoimentos-single{
