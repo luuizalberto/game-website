@@ -210,8 +210,13 @@ footer i{
 
     .depoimentos-single{width: 100%;}
 
+    .sobre-container{
+        flex-wrap: wrap;
+    }
+
     .sobre-single{
         width: 100% !important;
+        margin: 20px 0;
     }
 
     .sobre-single .titulo-single i{
